@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+/* Para resetar todo el css*/ /**/
+*{
+    margin: 0; /*Para quitar el margen por default*/
+    padding: 0; /*Para quitar el pading po default*/
+    box-sizing: border-box; /**/
+    text-decoration: none; /*Para quitar el subrayado de enlaces*/
+    list-style: none; /*Para quitar el marcador visual*/
+}
+body#inicio{
+    background-image: url(img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 1500px;
+}
+body#Ciaphas{
+    background-image: url(img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 1500px;
+}
+body#Gaunt{
+    background-image: url(img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 1500px;
+}
+body#Horus{
+    background-image: url(img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 1500px;
+}
+/* Cabecera */
+header{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 250px;
+    background-image: url(img/img-menu.jpg);
+}
+/* Fin Cabecera */
+#titulo2{
+    padding: 100px 150px;
+    font-size: 50px;
+    color: rgb(59, 58, 58);
+    margin-left: 100px;
+}
+#titulo1{
+    color: gold;
+    margin-left: 50px;
+}
+#logo{
+    position: absolute;
+    top: 17px;
+    left: 15px;
+    width: 188px;
+    height: 47px;
+}
+/* Barra de menu */
+nav{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 50px;
+    padding: 24px;
+}
+/* Fin Barra de menu */
+nav ul{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1000px;
+    height: 45px;
+    background: url(img/barra1.jpg);
+}
+nav ul li{
+    float: left;
+    width: 200px;
+    line-height: 45px;
+    text-align: center;
+    font-size: 19px;
+    color: white;
+    border: 2px solid gold;
+}
+/* Slide */
+#slide_inicio{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 500px;
+    background-image: url(img/Emperador.jpg);
+    background-repeat: no-repeat;
+    padding: 500px;
+    color: #DFDFDF;
+    font-size: 16px;
+    padding: 500px 50px;
+    background-size: cover;
+}
+#slide_Ciaphas{
+    color: goldenrod;
+    margin: 10px;
+}
+#imgcain {
+    width: 700px;
+    height: 500px;
+    background-image: url(img/cain0.jpg);
+    margin: 20px 150px;
+    border: 2px solid gold;
+}
+#imgcontactos{
+    width: 450px;
+    height: 500px;
+    margin: 30px 280px;
+    border: 2px solid gold;
+}
+#intro{
+    color: rgb(247, 191, 38);
+    font-size: 20px;
+}
+#slide_Gaunt{
+    color: goldenrod;
+    margin: 10px;
+}
+#slide_Horus{
+    color: goldenrod;
+    margin: 10px;
+}
+#titulo{
+    margin-left: -200px;
+    font-size: 30px;
+    color: goldenrod;
+    text-align: left;
+    height: 40px;
+}
+
+/* Fin Slide */
+/* Botonera Slide */
+#botoneraslide{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 40px;
+    background: url(img/barra1.jpg);
+}
+/* Fin Botonera Slide */
+#botoneraslide ul{
+    position: relative;
+    margin: auto;
+    width: 100px;
+    height: 26px;
+    
+}
+#botoneraslide ul li{
+    float: left;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background: #232d80;
+    border: 3px solid white;
+    margin: 8px 5px;
+}
+/* Section Inicio*/
+section#inicio{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 500px;   
+}
+section ul li{
+    float: right;
+    width: 333px;
+    height: 900px;
+}
+section ul li h1{
+    margin: 23px 27px;
+    font-weight: 100;
+    font-size: 28px;
+    color: goldenrod;    
+}
+section ul li p{
+    margin: 50px 28px;
+    font-size: 19px;
+    color: antiquewhite;   
+}
+section ul li img{
+    margin: 1px 29px;
+    width: 271px;
+    height: 500px;
+    border: 2px solid wheat;
+}
+section#contactenos{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 299px;
+    background: url(img/contac.jpg);
+}
+section#contactenos form{
+    position: relative;
+    margin: auto;
+    top: 32px;
+    width: 910px;
+    height: 232px;
+}
+section#contactenos form input#nombre{
+    position: absolute;
+    padding: 10px;
+    width: 272px;
+    height: 60px;
+    background: rgba(117, 166, 189, 0.8);
+    border: 3px solid #13152c;
+}
+section#contactenos form input#email{
+    position: absolute;
+    top: 85px;
+    padding: 10px;
+    width: 272px;
+    height: 60px;
+    background: rgba(117, 166, 189, 0.8);
+    border: 3px solid #13152c;
+}
+section#contactenos form input#asunto{
+    position: absolute;
+    bottom: 0px;
+    padding: 10px;
+    width: 272px;
+    height: 60px;
+    background: rgba(117, 166, 189, 0.8);
+    border: 3px solid #13152c;
+}
+section#contactenos form #mensaje{
+    position: absolute;
+    right: 0px;
+    padding: 10px;
+    width: 581px;
+    height: 128px;
+    background: rgba(117, 166, 189, 0.8);
+    border: 3px solid #13152c;
+}
+section#contactenos form input#enviar{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    padding: 10px;
+    width: 581px;
+    height: 60px;
+    background: #1a1d20;
+    border: 0;
+    color: white;
+}
+/* Fin Section */
+/* Section Ciaphas*/
+/*  
+section#Ciaphas{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 299px; 
+    background: white;
+}
+section#Ciaphas h1{
+    position: relative;
+    top: 15px;
+    left: -500px;
+    color: #1f1d21;
+    font-weight: 100;
+}
+section#Ciaphas hr{
+    position: relative;
+    top: 20px;
+    width: 950px;
+    margin: auto;
+    border: 1px solid #c6c6c6;
+}
+section#Ciaphas p{
+    position: relative;
+    top: 40px;
+    width: 950px;
+    margin: auto;
+    color: #414042;
+    text-align: justify;
+}
+section#Ciaphas img{
+    float: left;
+    width: 120px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+*/
+/* Fin Section Ciaphas*/
+/* Bottom */
+#bottom{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 200px;
+    
+}
+/* Fin Bottom */
+#bottom ul li{
+    float: left;
+    width: 250px;
+    height: 198px;
+    background: url(img/barra1.jpg);
+}
+#bottom ul li h1{
+    margin: 13px 18px;
+    color: white;
+    font-size: 18px;
+    font-weight: 100px;
+}
+#bottom ul li ol{
+    position: relative;
+    top: 15px;
+    left: 17px;
+    width: 230px;
+    height: 80px;
+    background: rgba(255, 0, 0, .5);
+}
+#bottom ul li ol li{
+    height: 20px;
+    text-align: left;
+    list-style: inside;
+    font-size: 15px;
+    color: white;
+    list-style-image:url(img/flecha.png)
+}
+#bottom ul li img{
+    position: relative;
+    top: 15px;
+    left: 15px;
+    width: 95px;
+    height: 95px;
+    border: 4px solid silver;
+    background: url(img/icono.png);
+}
+#bottom ul li ul{
+    position: relative;
+    top: 11px;
+    left: 15px;
+    width: 200px;
+    height: 60px;
+}
+#bottom ul li ul li{
+    float: left;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background: white;
+    margin: 5px;
+}
+#bottom ul li ul li a{
+    float: left;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+#bottom ul li ul li:first-child{
+    background: url(img/cont1.jpg);
+    background-size: cover;
+}
+#bottom ul li ul li:nth-child(2){
+    background: url(img/cont2.jpg);
+    background-size: cover;
+}
+#bottom ul li ul li:nth-child(3){
+    background: url(img/cont3.jpg);
+    background-size: cover;
+}
+#bottom ul li ul li:nth-child(4){
+    background: url(img/cont4.jpg);
+    background-size: cover;
+}
+/* Footer */
+footer{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 62px;
+    text-align: center;
+    color: white;
+    line-height: 62px;
+    font-size: 15px;
+}
+/* Fin Footer */
